@@ -1,0 +1,136 @@
+/* General Setting */
+body {
+  margin: 20px 40px;
+  background: #fff;
+  background: url(./searchjob.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: #242424;
+}
+
+/* Jobs */
+.job {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: 20px 10px;
+  align-items: center;
+  box-shadow: 2px 2px 10px #242424 !important; 
+}
+
+.job:hover {
+  cursor: pointer;
+  color: #666666;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+
+.job-company {
+  padding: 0 30px;
+}
+
+.job-dialog {
+  padding: 30px 50px;
+}
+
+.welcome-description {
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px 10px;
+}
+
+.welcome-item {
+  opacity: 0;
+  transition: .5s ease all;
+}
+
+.flex-align-mid {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.job-title-location {
+  margin-left: 20px;
+  padding: 0;
+}
+
+.job-title-first {
+  color: #035aa6;
+  margin-bottom: 20% !important;
+  font-size: 2rem !important;
+}
+
+.job-title-second {
+  font-weight: 400 !important;
+  font-size: 1.2rem !important;
+}
+
+.job-title-third {
+  margin-bottom: 5% !important;
+  font-weight: 100 !important;
+  font-size: 1rem !important;
+}
+
+/* Heading */
+.title__heading {
+  font-weight: bold !important;
+  font-family: 'Montserrat Subrayada', sans-serif !important;
+  padding-top: 3% !important;
+  color: #242424;
+  font-size: 3rem !important;
+}
+
+.subtitle__heading {
+  font-weight: 100 !important;
+  font-size: 1rem !important;
+  padding-bottom: 5%;
+}
+
+.number__heading {
+  color: #035aa6 !important;
+  font-weight: bold;
+}
+
+/* Media Query */
+@media (max-width: 992px) {
+  .job {
+    width: 100%;
+    padding: 0;
+  }
+
+  .job-title-first {
+    padding-top: 15% !important;
+    font-size: 1.5rem !important;
+  }
+
+  .job-title-second {
+    font-size: 1rem !important;
+  }
+
+  .job-title-third {
+    font-size: .8rem !important;
+    padding-bottom: 15% !important;
+  }
+
+  .job-title-location {
+    padding: 10px !important;
+  }
+
+  .job-date {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  html {
+    width: 100% !important;
+  }
+}
