@@ -1,34 +1,18 @@
-# Find Your Entry | Entry Level Job Listing App
-<br/>
-<br/>
+# Find Your Entry | Entry level job listing app
 ## PC Demo
 <img src="/pc-demo" style="zoom:30%;" />
-<br/>
-<br/>
 ## Mobile Demo
-<br/>
-<img src="/mobile-demo" style="zoom:30%;" />
-<br/>
-<br/>
+![Screen-Recording-2020-07-12-at-2 43 20-AM](https://user-images.githubusercontent.com/52603436/87231366-9c988f80-c3f1-11ea-8942-44ed1649ff9f.gif)
+
 ## About
-<br/>
-<br/>
 ### Skills & Tools Used
-<br/>
 - React
 - Express
 - Node
 - Redis
 - Crone
-<br/>
-<br/>
 ### Description
-<br/>
 Using github jobs api to get filtered data, which is about Jr lever jobs. Front-end built with React.js and Back-end managed with express, crone, and redis.
-<br/>
 By clicking each job, following descriptions and apply button is displaying.
-<br/>
-<br/>
 ### Tutorial
-<br/>
  Source : https://youtube.com/codedrip
